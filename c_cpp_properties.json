@@ -2,6 +2,12 @@
     "configurations": [
         {
             "name": "Linux",
+            "includePath": [
+              "${default}",
+              "${workspaceFolder}/include",
+              "${workspaceFolder}/arch/x86/include",
+              "${workspaceFolder}/arch/x86/include/generated"
+            ],
             "cStandard": "c11",
             "intelliSenseMode": "gcc-x64",
             "compileCommands": "${workspaceFolder}/compile_commands.json"
